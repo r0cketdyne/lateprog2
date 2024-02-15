@@ -15,14 +15,20 @@ print(usr_type)
 if usr_type == ('O+' or 'O-'):
     print('the patient can give us Double Red Cells && Whole Blood ')
 #If your blood type is A+
+if usr_type == ('A+'):
+    print('the patient can donate Plasma && Platelets')
 #Plasma
 #Platelets
 
 #If your blood type is A-
+if usr_type == ('A-'):
+    print('the patient can donate both Double Red Cells && Platelets. Yay')
 #Double Red Cells
 #Platelets
 
 #If your blood type is B+
+if user_type == ('B-'):
+    print('the patient can donate both Plasma && Platelets')
 #Plasma
 #Platelets
 

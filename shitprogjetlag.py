@@ -12,7 +12,8 @@ print(usr_type)
 #If your blood type is O+ or O-
 #Double Red Cells
 #Whole Blood
-
+if usr_type == ('O+' or 'O-'):
+    print('the patient can give us Double Red Cells && Whole Blood ')
 #If your blood type is A+
 #Plasma
 #Platelets

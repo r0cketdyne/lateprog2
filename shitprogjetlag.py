@@ -39,7 +39,7 @@ if usr_type == ('B-'):
 #Platelets
 
 #If your blood type is AB+ or AB-
-if usr_type == ('AB+' or 'AB-'):
+if usr_type in ('AB+', 'AB-'):
     print("Well well well... seems like they can donate both Plasma and Platelets")
 #Plasma
 #Platelets

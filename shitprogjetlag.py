@@ -27,7 +27,7 @@ if usr_type == ('A-'):
 #Platelets
 
 #If your blood type is B+
-if user_type == ('B-'):
+if usr_type == ('B-'):
     print('the patient can donate both Plasma && Platelets')
 #Plasma
 #Platelets

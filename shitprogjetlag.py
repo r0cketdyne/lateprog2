@@ -1,60 +1,37 @@
-# Program 1 -- File: Prog2.py
+# Programming Assignment 2 -- File: Prog2.py
 # MATTHEW STEPHENSON 2/15/2024
 ## This program assists a healthcare practitioner determing what patients can donate at blood
-#A specialty donation allows you to give more of what patients need in just one appointment. #During
-#your donation, one part of your blood is collected, while the rest is returned to your body. #This process
-#is called apheresis (AY-fur-EE-sis).
-
-#In this decision problem, you are to determine the best types of donation for a particular #blood type
-#based on the following table. You must also check if any invalid blood types are entered at the #user
-#prompt.
-
-usr_type = input("If you have data related to the patients blood type please put it in\n")
-#using input func to take a str from the user and putting it into an empty var usr_str
+###########################################################
+usr_type = input("If you have data related to the patient's blood type, please put it in\n")
 print(usr_type)
-#line 3 logs this to the terminal emulator. var is stored at some memory address at stack
 
-#If your blood type is O+ or O-
-#Double Red Cells
-#Whole Blood
+# If your blood type is O+ or O-
 if usr_type in ('O+', 'O-'):
     print('the patient can give us Double Red Cells && Whole Blood ')
-#line 20 states that if strings O+ or O- exist withIN  var usr_type input by
-#the user, to log the string "they can donate double red or whole blood" to terminal emulator
-#If your blood type is A+
-if usr_type == ('A+'):
+
+# If your blood type is A+
+elif usr_type == 'A+':
     print('the patient can donate Plasma && Platelets')
-#if the string the user placed into var usr_type is str 'A+' 
-#log the string 'patient can donate Plasma and Platelets" to terminal emulator 
-#Plasma
-#Platelets
 
-#If your blood type is A-
-if usr_type == ('A-'):
+# If your blood type is A-
+elif usr_type == 'A-':
     print('the patient can donate both Double Red Cells && Platelets. Yay')
-#Double Red Cells
-#Platelets
 
-#If your blood type is B+
-if usr_type == ('B+'):
+# If your blood type is B+
+elif usr_type == 'B+':
     print('the patient can donate both Plasma && Platelets')
-#Plasma
-#Platelets
 
-#If your blood type is B-
-if usr_type == ('B-'):
+# If your blood type is B-
+elif usr_type == 'B-':
     print("the patient can donate both Double Red Cells && Platelets")
-#Double Red Cells
-#Platelets
 
-#If your blood type is AB+ or AB-
-if usr_type in ('AB+', 'AB-'):
+# If your blood type is AB+ or AB-
+elif usr_type in ('AB+', 'AB-'):
     print("Well well well... seems like they can donate both Plasma and Platelets")
-#Plasma
-#Platelets
 
-#I could have used elif before the conditionals some of the blood types
-#to make sure only one condition was checked. but I didn't feel this was
-#explicityle necessary.
+#elif statements weren't needed. but at the last moment decided this implementation made sense
+#if you want to see original implementation. please ask for a link to the github repo
+#via discord at any time. commit history is there
+#elif wasn't explicityle necessary.
 #some of the comments were used as a kind of wireframe to piece together this 
 #solution. a translation of the flow chart used in the lectures.

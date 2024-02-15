@@ -43,9 +43,3 @@ if usr_type == ('AB+' or 'AB-'):
     print("Well well well... seems like they can donate both Plasma and Platelets")
 #Plasma
 #Platelets
-
-#pushing this insanely late. jet lag. travel. ugh.
-#anyone that is using this code to model their own stuff
-#I am back home now and will be pushing more frequently.
-#will write from scratch. starting now. will push in less than a few hours
-#lfg

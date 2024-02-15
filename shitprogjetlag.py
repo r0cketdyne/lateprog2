@@ -1,4 +1,4 @@
-usr_type = input("mf what is your blood type. if you don't know check and put the data in")
+usr_type = input("mf what is your blood type. if you don't know check and put the data in\n")
 print(usr_type)
 #Problem Statement
 #A specialty donation allows you to give more of what patients need in just one appointment. #During
@@ -27,16 +27,20 @@ if usr_type == ('A-'):
 #Platelets
 
 #If your blood type is B+
-if usr_type == ('B-'):
+if usr_type == ('B+'):
     print('the patient can donate both Plasma && Platelets')
 #Plasma
 #Platelets
 
 #If your blood type is B-
+if usr_type == ('B-'):
+    print("the patient can donate both Double Red Cells && Platelets")
 #Double Red Cells
 #Platelets
 
 #If your blood type is AB+ or AB-
+if usr_type == ('AB+' or 'AB-'):
+    print("Well well well... seems like they can donate both Plasma and Platelets")
 #Plasma
 #Platelets
 
